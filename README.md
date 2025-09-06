@@ -41,7 +41,7 @@ $ python3 getPDFImage.py
 ```
 2. Execute `ChangeImageColor.py` and `changeImageColorForStacking.py` to change the color of the image of comparison
 ```bash:Execute getPDFImage.py
-$ python3 getPDFImage.py
+$ python3 ChangeImageColor.py
 $ python3 changeImageColorForStacking.py
 ```
 3. Execute `createDiffPDF.py` to create a PDF file of the comparison results
@@ -56,3 +56,6 @@ The libraries used are as follows.
 
 # Author
 [LittleBear-6w6](https://github.com/LittleBear-6w6)
+
+# Contributor
+[devkumar2313](https://github.com/devkumar2313) : [f91bf45](https://github.com/LittleBear-6w6/PDFCompareByStackingImages/commit/f91bf4520498c77a5ffa6e661508f396eea5db1e)
