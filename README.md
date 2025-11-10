@@ -29,7 +29,7 @@ $ python -m pip install --upgrade pip
 $ pip install --upgrade pymupdf
 ```
 
-## 3. Install pillow Library
+## 3. Install Pillow Library
 ```bash:Install pillow Library
 $ pip install --upgrade pip install --upgrade pillow
 ```
