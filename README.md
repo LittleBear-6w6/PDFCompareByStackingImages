@@ -37,7 +37,6 @@ $ pip install --upgrade pip install --upgrade pillow
 # Usage
 ## Execute via a unified command interface
 ### Execute `main.py` with arguments.  
-
    [Arguments]
    - Required parametetrs
         - `pdf1_path` : Path to the first PDF file
@@ -61,7 +60,6 @@ $ python main.py /path/to/input1.pdf /path/to/input1.pdf /path/to/output.pdf
 
 # Specify the pages for comparison
 $ python main.py /path/to/input1.pdf /path/to/input1.pdf /path/to/output.pdf 1
-
 ```
 ### Show help
 Execute `main.py` with following arguments `--help` or `-h`
