@@ -35,6 +35,43 @@ $ pip install --upgrade pip install --upgrade pillow
 ```
 
 # Usage
+## Execute via a unified command interface
+### Execute `main.py` with arguments.  
+
+   [Arguments]
+   - Required parametetrs
+        - `pdf1_path` : Path to the first PDF file
+        - `pdf2_path` : Path to the second PDF file
+   - Optional Parameters
+        - `output_path` : Custom output filename (defaults to "comparison_result.pdf")
+        - `page_number` : Specific page to compare (defaults to page 1)
+
+### Input Validation
+- Verify the existence of both input PDF files
+- Validate specified page numbers for availability
+- Comprehensive bilingual error reporting (Japanese and English)
+
+### Usage Examples
+```bash:Usage Examples
+# Basic Execution
+$ python main.py /path/to/input1.pdf /path/to/input1.pdf
+
+# Specify the output path/file
+$ python main.py /path/to/input1.pdf /path/to/input1.pdf /path/to/output.pdf
+
+# Specify the pages for comparison
+$ python main.py /path/to/input1.pdf /path/to/input1.pdf /path/to/output.pdf 1
+
+```
+### Show help
+Execute `main.py` with following arguments `--help` or `-h`
+```bash:Show help
+$ python main.py --help
+       or
+$ python main.py -h
+```
+
+## Execute the individual modules
 1. Execute `getPDFImage.py` to save each page from PDF file as PNG image file
 ```bash:Execute getPDFImage.py
 $ python3 getPDFImage.py
