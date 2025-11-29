@@ -1,3 +1,8 @@
+![GitHub contributors](https://img.shields.io/github/contributors/LittleBear-6w6/PDFCompareByStackingImages?style=for-the-badge&logo=github&color=green)
+![GitHub last commit](https://img.shields.io/github/last-commit/LittleBear-6w6/PDFCompareByStackingImages?style=for-the-badge&logo=github&color=green)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/LittleBear-6w6/PDFCompareByStackingImages?style=for-the-badge&logo=github&color=green)
+![GitHub License](https://img.shields.io/github/license/LittleBear-6w6/PDFCompareByStackingImages?style=for-the-badge&logo=github&color=green)
+
 # PDFCompareByStackingImages
 Tools which Compare PDF files by stacking images
 
