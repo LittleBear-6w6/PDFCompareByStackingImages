@@ -94,6 +94,9 @@ The libraries used are as follows.
 - [PyMupdf](https://pymupdf.readthedocs.io/ja/latest/index.html) : PDF operation
 - [Pillow](https://pillow.readthedocs.io/en/latest/index.html) : Image processing
 
+# Article
+- [How I created a PDF comparison tool](https://qiita.com/LittleBear-6w6/items/461b23696355454398b8) : Article introducing the tool
+
 # Author
 [LittleBear-6w6](https://github.com/LittleBear-6w6)
 
