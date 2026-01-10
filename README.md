@@ -36,7 +36,7 @@ $ pip install --upgrade pymupdf
 
 ## 3. Install Pillow Library
 ```bash:Install pillow Library
-$ pip install --upgrade pip install --upgrade pillow
+$ pip install --upgrade pillow
 ```
 
 # Usage
